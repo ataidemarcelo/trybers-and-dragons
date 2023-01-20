@@ -1,6 +1,4 @@
 export default abstract class Race {
-  protected _maxLifePoints = Number();
-
   constructor(
     private readonly _name: string, 
     private readonly _dexterity: number,
